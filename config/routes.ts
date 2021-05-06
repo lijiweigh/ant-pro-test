@@ -1,4 +1,4 @@
-﻿export default [
+export default [
   {
     path: '/user',
     layout: false,
@@ -35,6 +35,12 @@
         component: './Welcome',
       },
     ],
+  },
+  {
+    name: '卡片列表',
+    icon: 'smile',
+    path: '/list/listcardlist',
+    component: './ListCardList',
   },
   {
     name: 'list.table-list',
